@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SITE DO BTS</title>
+    <style>
+        
+        body {
+            background-color: #a861d1c5; 
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+ 
+        .container {
+            padding: 24px;
+        }
+
+        .galeria-topo {
+            display: flex;
+            gap: 60px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            margin-top: 26px;
+        }
+
+        .imagem1 {
+            margin-left: 34px;
+        }
+        .imagem1 img {
+            width: 400px;
+            max-width: 100%;    
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgb(200, 21, 255);
+        }
+
+        .images-row {
+            display: flex;
+            gap: 80px;
+            flex-wrap: wrap;
+            align-items: flex-start;
+        }
+        .images-row img {
+            width: 400px;
+            max-width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgb(200, 21, 255);
+        }
+        .video-youtube {
+        width: 100%;
+        max-width: 800px;
+        aspect-ratio: 16 / 9;
+    }
+
+    .video-youtube iframe {
+        width: 100%;
+        height: 100%;
+        border: 0;
+    }
+
+        .bio {
+        display: flex;
+        gap: 28px;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 16px;
+        }
+        .bio img {
+        box-shadow: 0 2px 6px rgb(200, 21, 255);
+        width: 380px;
+        max-width: 100%;
+        height: auto;
+        border-radius: 6px;
+        }
+        .bio-text {
+        max-width: 1250px;
+        }
+        @media (max-width: 700px) {
+        .bio { flex-direction: column; }
+    .bio img { width: 100%; }
+        }
+        
+ 
+        /* ---------- Seção de Conquistas (mesmo tema roxo do site) ---------- */
+        #conquistas {
+            margin-top: 40px;
+        }
+        #conquistas .eyebrow-label {
+            display: block;
+            font-size: 0.85rem;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #4a0072;
+            font-weight: bold;
+            margin-bottom: 6px;
+        }
+        #conquistas .section-title {
+            font-size: 2rem;
+            color: #3a0a5c;
+            margin: 0 0 24px 0;
+        }
+        .ach-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+        }
+        .ach-card {
+            background: #a874cf;
+            border-radius: 6px;
+            padding: 24px 20px;
+            box-shadow: 0 2px 6px rgb(200, 21, 255);
+        }
+        .ach-card .big {
+            font-size: 2.2rem;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .ach-card p {
+            margin-top: 10px;
+            color: #4e0f5e;
+            font-size: 0.95rem;
+        }
+        .hero-heading1 h1 {
+    color: #4e0f5e;
+    font-size: clamp(2rem, 6vw, 5rem);
+    letter-spacing: 0.07em;
+    margin: 0;
+    text-shadow: 0 0 18px var(--pink-soft);
+    text-align: center;
+    }
+
+        
+    </style>
+</head>
+<body>
+    <div class="hero-heading1">x
+        <h1>SITE DO BTS</h1>
+        
+        <br><div class="bio-text"></div><h3>Esse site é dedicado ao grupo de K-pop BTS, aqui você encontrará a biografia dos integrantes, curiosidades, discografia e muito mais.</h3></div>
+
+        <div class="galeria-topo">
+            <div class="imagem1">
+                <img
+                    src="https://capricho.abril.com.br/wp-content/uploads/2019/02/bts-grammy.jpg?quality=85&strip=info&w=1024"
+                    alt="Imagem BTS 1"
+                    onerror="this.src='https://via.placeholder.com/400x600?text=Imagem+1'">
+            </div>
+
+            <div class="images-row">
+                <img
+                    src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/06/weverse_0-269758317.jpeg?w=1200&h=1200&crop=1"
+                    alt="Imagem BTS 2"
+                    onerror="this.src='https://via.placeholder.com/400x600?text=Imagem+2'">
+                <img
+                    src="https://lumiere-a.akamaihd.net/v1/images/bts_10e2829a.jpeg?region=488,0,3121,3121"
+                    alt="Imagem BTS 3"
+                    onerror="this.src='https://via.placeholder.com/400x600?text=Imagem+3'">
+                <img
+                    src="https://s2-gshow.glbimg.com/ZmkzQNBO8w0DG4yAvjss4GUYwxo=/0x0:680x645/600x0/smart/filters:gifv():strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/f/T/hY8MPJS2iSc1bHvsya7A/bts-ok-1568643218.jpg"
+                    alt="Imagem BTS 4"
+                    onerror="this.src='https://via.placeholder.com/400x600?text=Imagem+4'">
+            </div>
+        </div>
+    </div>
+    
+<div class="container">
+    <h1>Mais tocadas</h1>
+    <h2>Dynamite</h2>
+    <p>Uma música vibrante e divertida que marcou a estreia do BTS totalmente em inglês. Com uma atmosfera positiva e contagiante, tornou-se um dos maiores sucessos internacionais do grupo.</p>
+    <div class="video-youtube">
+        <iframe
+            src="https://www.youtube.com/embed/gdZLi9oWNZg"
+            title="Vídeo Dynamite"
+            allowfullscreen>
+        </iframe>
+    <h2>Butter</h2>
+    <p>Uma faixa pop leve e energética, com uma sonoridade dançante e uma forte presença internacional. A música destaca o carisma e a confiança do BTS.</p>
+    
+        <iframe
+            src="https://www.youtube.com/embed/WMweEpGlu_U"
+            title="Vídeo Butter"
+            allowfullscreen>
+        </iframe>
+    <h2>DNA</h2>
+    <p>Uma música marcante da carreira do BTS, com uma produção eletrônica e um conceito visual colorido. A faixa fala sobre uma conexão que parece estar destinada a acontecer.</p>
+    
+        <iframe
+            src="https://www.youtube.com/embed/MBdVXkSdhwU"
+            title="Vídeo DNA"
+            allowfullscreen>
+        </iframe>
+
+        <h2>Fake Love</h2>
+    <p>Uma música mais intensa e emocional, que aborda a sensação de perder a própria identidade ao tentar manter um amor. Seu conceito sombrio marcou uma das eras mais memoráveis do grupo.</p>
+    
+        <iframe
+            src="https://www.youtube.com/embed/7C2z4GqqS5E"
+            title="Vídeo Fake Love"
+            allowfullscreen>
+        </iframe>
+        <h2>No More Dream</h2>
+    <p>Uma das primeiras músicas do BTS, lançada em 2013, que apresenta a identidade inicial do grupo. A faixa questiona as expectativas impostas pela sociedade e incentiva os jovens a descobrirem seus próprios sonhos e objetivos.</p>
+    
+        <iframe
+            src="https://www.youtube.com/embed/EBzr2udonZI"
+            title="Vídeo No More Dream"
+            allowfullscreen>
+        </iframe>
+        
+    </div>
+
+</div>
+
+
+
+    <div class="container">
+  <h1>Biografia dos Integrantes</h1>
+  <h4>Aqui você encontrará informações detalhadas sobre cada um dos membros do BTS.</h4>
+ 
+  <div class="bio">
+    <img
+      src="https://imgs.search.brave.com/k7vzdliHWKOuhEyl6_wZwNMEPVNvtqS8N_brUzL7nQg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vdmlk/ZW9zL3RodW1ibmFp/bHMvb3JpZ2luYWxz/LzlkL2Y2L2Q0Lzlk/ZjZkNDRiNTFhNGNi/MTk3ZjQ1OWRmODM5/NDQyN2QyLjAwMDAw/MDAuanBn"
+      alt="Imagem RM"
+      >
+ 
+    <div class="bio-text">
+      <h2>RM</h2>
+      <p>Kim Nam-joon, conhecido artisticamente como RM, nasceu em 12 de setembro de 1994, em Ilsan, Coreia do Sul. Ele é o líder do BTS e atua principalmente como rapper, compositor e produtor musical.</p>
+ 
+      <p>Antes de entrar para a Big Hit Entertainment, RM já tinha contato com o hip-hop e participava da cena underground de rap sul-coreana. Ele começou a escrever músicas e desenvolver suas habilidades como rapper ainda jovem.</p>
+ 
+      <p>RM estreou oficialmente com o BTS em 2013. Como líder, tornou-se uma das principais figuras responsáveis pela comunicação do grupo, especialmente em entrevistas internacionais. Ele também participa da composição e produção de várias músicas do BTS.</p>
+ 
+      <h3>Curiosidades sobre RM</h3>
+      <ul>
+        <li>Seu nome verdadeiro é Kim Nam-joon.</li>
+        <li>RM já usou outros nomes artísticos antes de adotar definitivamente "RM".</li>
+        <li>Ele é conhecido por ter um grande interesse por arte e literatura.</li>
+        <li>RM fala inglês muito bem e representou o BTS em entrevistas internacionais.</li>
+        <li>RM tinha um QI de 148, segundo informações divulgadas sobre um teste que ele realizou quando era mais jovem.</li>
+      </ul>
+    </div>
+  </div>
+ 
+  <div class="bio">
+    <img
+                src="https://imgs.search.brave.com/G02xzBTrRjOXikWYhZ5MY8Ej5HE_q4NYIM48KZvfD3w/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzIzL2E4/LzAwLzIzYTgwMGQ2/YmQxNzJkZDBmMGM5/ZWYxNjlkYzViMjEx/LmpwZw"
+                alt="Imagem Jin">
+                
+                <div class="bio-text">
+        <h2>Jin</h2>
+        <p>Kim Seok-jin, conhecido artisticamente como Jin, nasceu em 4 de dezembro de 1992, em Gwacheon, Coreia do Sul. Ele é o integrante mais velho do BTS e atua principalmente como vocalista.</p>
+        <p>Antes de entrar para a indústria musical, Jin estudava atuação. Ele foi descoberto pela Big Hit Entertainment enquanto ainda era estudante e posteriormente passou pelo treinamento necessário para se tornar artista.</p>
+        <p>Jin estreou com o BTS em 2013. Durante os primeiros anos do grupo, trabalhou para desenvolver ainda mais suas habilidades vocais e se tornou conhecido por sua voz e presença de palco.</p>
+        
+        <h3>Curiosidades sobre Jin</h3>
+        <ul>
+            <li>Seu nome verdadeiro é Kim Seok-jin.</li>
+            <li>Jin é o integrante mais velho do BTS.</li>
+            <li>Ele estudou atuação antes de se tornar cantor.</li>
+            <li>É conhecido por gostar bastante de comida e culinária.</li>
+            <li>Jin costuma cozinhar e já mostrou suas habilidades culinárias em diversos conteúdos do BTS.</li>
+            <li>Ele gosta de jogos e já participou de diversos conteúdos relacionados a videogames.</li>
+            <li>Sua música "Super Tuna" começou como uma brincadeira e acabou se tornando extremamente popular entre os fãs.</li>
+            <li>Ele possui uma relação bastante próxima com seu irmão mais velho.</li>
+            <li>Seu apelido mais famoso é "Worldwide Handsome".</li>
+            <li>Jin é formado em Cinema e Artes pela Universidade Konkuk, na Coreia do Sul.</li>
+            <li>Antes de estrear no BTS, Jin foi convidado para uma audição enquanto estava na rua, sendo inicialmente procurado por sua aparência.</li>
+            <li>Jin é conhecido por gostar bastante de cozinhar e já apresentou vários pratos em conteúdos do BTS.</li>
+        </ul>
+    </div>
+  </div>
+ 
+  <div class="bio">
+    <img
+                src="https://imgs.search.brave.com/Q0wgiJ1yQLdv36E6s63J55FQjhxQwsLHoggGeKFk5Bk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzI0LzRi/LzQ2LzI0NGI0NjA3/MmU1ZGIxMTg5YmRl/ODU1NWE1ZDMwNWIx/LmpwZw"
+                alt="Imagem Suga">
+               
+                <div class="bio-text">
+        <h2>Suga</h2>
+        <p>Min Yoon-gi, conhecido artisticamente como SUGA e também como Agust D em seus trabalhos solo, nasceu em 9 de março de 1993, em Daegu, Coreia do Sul. Ele é rapper, compositor e produtor musical.</p>
+        <p>Antes de fazer parte do BTS, SUGA já estava envolvido com o hip-hop e produzia músicas. Durante sua juventude, enfrentou dificuldades financeiras, mas continuou trabalhando para desenvolver sua carreira musical.</p>
+        <p>Em 2013, estreou oficialmente com o BTS. Dentro do grupo, tornou-se um dos principais responsáveis pela produção e composição de músicas. Suas letras frequentemente abordam experiências pessoais, pressão, sonhos, dificuldades e problemas enfrentados pelos jovens.</p>
+        <p>Como Agust D, SUGA desenvolveu uma carreira solo com uma identidade mais intensa e pessoal. Seus principais trabalhos incluem Agust D, D-2 e D-DAY.</p>
+        <p>SUGA também trabalhou como produtor para outros artistas, mostrando que sua atuação na música vai muito além de ser integrante do BTS.</p>
+        
+        <h3>Curiosidades sobre Suga</h3>
+        <ul>
+            <li>Seu nome verdadeiro é Min Yoon-gi.</li>
+            <li>Ele nasceu em Daegu, uma cidade diferente de Seul.</li>
+            <li>"Agust D" é o nome utilizado por ele em seus trabalhos solo de rap.</li>
+            <li>SUGA começou a produzir e escrever músicas ainda muito jovem.</li>
+            <li>Ele é conhecido por ser um dos integrantes mais envolvidos na produção musical do BTS.</li>
+            <li>SUGA gosta bastante de basquete.</li>
+            <li>Ele é conhecido por sua personalidade mais calma e reservada.</li>
+            <li>Apesar da personalidade séria, ele possui um humor bastante sarcástico.</li>
+            <li>Ele já produziu músicas para outros artistas além do BTS.</li>
+            <li>SUGA também toca piano e utiliza instrumentos e equipamentos musicais em seu processo de produção.</li>
+        </ul>
+    </div>
+  </div>
+ 
+  <div class="bio">
+    <img
+                src="https://imgs.search.brave.com/P1BwDOtNhle3ODffD0T6QCQnd5gbw-NRV9e7A4midj0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2FiLzZk/LzljL2FiNmQ5Y2Vh/Yjc3OWNhYmM0OWJi/NWVjZmFkNmE5NGFk/LmpwZw"
+                alt="Imagem J-Hope">
+ 
+                <div class="bio-text">
+        <h2>J-Hope</h2>
+ 
+            <p>Jung Ho-seok, conhecido artisticamente como j-hope, nasceu em 18 de fevereiro de 1994, em Gwangju, Coreia do Sul. Ele é rapper, dançarino e compositor, sendo considerado um dos principais dançarinos do BTS.</p>
+            <p>Antes de estrear no grupo, j-hope já tinha experiência com dança. Ele participou de competições e apresentações e desenvolveu grande habilidade em diferentes estilos de dança.</p>
+            <p>Posteriormente, j-hope entrou para a Big Hit Entertainment como trainee. Durante seu treinamento, além de aperfeiçoar a dança, também desenvolveu suas habilidades como rapper e compositor. Em 2013, estreou oficialmente com o BTS e passou a fazer parte de um dos grupos mais importantes da história do K-pop.</p>
+            <p>Além do trabalho com o BTS, j-hope construiu uma carreira solo. Em 2018, lançou sua primeira mixtape, Hope World, que apresentou uma identidade musical própria e alcançou grande repercussão internacional. Em 2022, lançou o álbum Jack In The Box, mostrando um lado mais maduro e experimental de sua personalidade artística.</p>
+            <p>Durante sua juventude, j-hope também ficou conhecido pelo nome artístico "Smile Hoya" enquanto participava de atividades relacionadas à dança.</p>
+            <p>J-hope gosta bastante de comida coreana, especialmente pratos como kimchi e arroz, e costuma demonstrar interesse por diferentes tipos de culinária nos conteúdos do BTS.</p>
+ 
+            <h3>Curiosidades sobre J-Hope</h3>
+            <ul>
+                <li>Seu nome verdadeiro é Jung Ho-seok.</li>
+                <li>Ele nasceu em Gwangju, na Coreia do Sul.</li>
+                <li>Antes do BTS, j-hope já era conhecido por suas habilidades na dança.</li>
+                <li>Ele participou de competições de dança quando era mais jovem.</li>
+                <li>É considerado um dos melhores dançarinos do BTS.</li>
+                <li>Seu nome artístico representa a ideia de esperança.</li>
+                <li>Ele é conhecido por sua personalidade alegre e energética.</li>
+                <li>j-hope é famoso entre os fãs por sua risada bastante característica.</li>
+                <li>Ele gosta de moda e já participou de diversos eventos relacionados ao mundo fashion.</li>
+                <li>Seu álbum Jack In The Box mostrou um lado mais experimental e maduro de sua personalidade artística.</li>
+                <li>Apesar de ser conhecido por sua personalidade alegre, seus trabalhos solo apresentam um lado mais sério e reflexivo do artista.</li>
+                <li>Ele foi escolhido como embaixador da marca de moda Louis Vuitton.</li>
+            </ul>
+    </div>
+  </div>
+  <div class="bio">
+    <img
+                src="https://imgs.search.brave.com/7HDbYhBF49HtbJkz0ZNSBq7vnY9lJLEckBlhi7iJ1Bo/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzNiL2Rj/LzY2LzNiZGM2NmRj/NGM0NjQ0ZTM0OGJj/ZGJlOGZkNjRiYjIy/LmpwZw"
+                alt="Imagem Jimin">
+                
+                <div class="bio-text">
+        <h2>Jimin</h2>
+        <p>Park Ji-min, conhecido como Jimin, nasceu em 13 de outubro de 1995, em Busan, Coreia do Sul. Ele é vocalista e dançarino do BTS.</p>
+        <p>Antes de entrar para a Big Hit Entertainment, Jimin estudava dança contemporânea e demonstrava grande talento na área. Sua formação em dança teve influência importante no estilo de suas performances.</p>
+        <p>Jimin estreou com o BTS em 2013. Ao longo dos anos, tornou-se conhecido por sua voz, sua técnica de dança e sua capacidade de transmitir emoções durante as apresentações.</p>
+        <p>Na carreira solo, lançou o álbum FACE, que inclui músicas como "Like Crazy" e "Set Me Free Pt. 2". Posteriormente, lançou MUSE, mostrando diferentes aspectos de sua identidade musical.</p>
+        <p>Jimin é considerado um dos principais performers do BTS e possui um estilo de dança bastante expressivo.</p>
+
+        <h3>Curiosidades sobre Jimin</h3>
+        <ul>
+            <li>Seu nome verdadeiro é Park Ji-min.</li>
+            <li>Ele nasceu em Busan.</li>
+            <li>Jimin estudou dança contemporânea antes de entrar para o BTS.</li>
+            <li>Ele foi um dos melhores alunos de sua escola de dança.</li>
+            <li>Jimin é conhecido por sua grande flexibilidade.</li>
+            <li>Seu estilo de dança é considerado bastante elegante e expressivo.</li>
+            <li>Ele é conhecido por ter uma voz mais aguda e suave em comparação com alguns dos outros integrantes.</li>
+            <li>Jimin e V são amigos próximos e estudaram juntos durante a época de formação do BTS.</li>
+            <li>Ele é conhecido pelo carinho que demonstra pelos outros integrantes.</li>
+            <li>Jimin costuma ser bastante perfeccionista durante os ensaios e apresentações.</li>
+            
+        </ul>
+    </div>
+      <div class="bio">
+    <img
+                src="https://imgs.search.brave.com/_k2XSQVqqI6b-i1PrPK1G951yAtIxBMn-e76-YQCr7g/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzEzLzdh/LzY3LzEzN2E2NzI1/Y2Y3Njg1YjVkYTU1/MmI1ODE1ZDU4NWNi/LmpwZw"
+                alt="Imagem V">
+                
+                <div class="bio-text">
+        <h2>V</h2>
+        <p>Kim Tae-hyung, conhecido artisticamente como V, nasceu em 30 de dezembro de 1995, em Daegu, Coreia do Sul. Ele é vocalista do BTS e também possui experiência como ator.</p>
+        <p>V entrou para a Big Hit Entertainment depois de fazer uma audição. Durante o período de treinamento, desenvolveu suas habilidades de canto e performance antes de estrear oficialmente com o BTS em 2013.</p>
+        <p>Sua voz grave e marcante tornou-se uma das características mais reconhecidas do grupo. Além da música, V também demonstrou interesse por atuação, participando do drama sul-coreano Hwarang: The Poet Warrior Youth.</p>
+        <p>Na carreira solo, lançou o álbum Layover, que apresenta uma sonoridade influenciada por R&B, jazz e pop. O álbum inclui músicas como "Slow Dancing", "Rainy Days" e "Love Me Again".</p>
+        <p>V também é conhecido por seu interesse em fotografia, arte e moda.</p>
+
+        <h3>Curiosidades sobre V</h3>
+        <ul>
+            <li>Seu nome verdadeiro é Kim Tae-hyung.</li>
+            <li>Ele nasceu em Daegu.</li>
+            <li>V é conhecido por sua voz grave e única.</li>
+            <li>Ele participou do drama Hwarang: The Poet Warrior Youth.</li>
+            <li>Seu personagem no drama se chamava Han Sung.</li>
+            <li>V é conhecido por gostar bastante de fotografia.</li>
+            <li>Ele possui grande interesse por arte e moda.</li>
+            <li>V gosta de jazz e outros estilos musicais além do K-pop.</li>
+            <li>Ele é conhecido pelo carinho que demonstra pelos outros integrantes.</li>
+            <li>V é conhecido por sua personalidade espontânea e por frequentemente surpreender os outros integrantes com suas atitudes.</li>
+            
+        </ul>
+    </div>
+    <div class="bio">
+    <img
+                src="https://imgs.search.brave.com/EsTrOg6-3JE7dvi8bdLvK44vzPFaZaAkezUaSPLadIc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzA4LzRl/LzkyLzA4NGU5MmYz/NmZiNGFjNWJjMjg4/ODQ4ZDQwM2RlNzUw/LmpwZw"
+                alt="Imagem Jungkook">
+                
+                <div class="bio-text">
+        <h2>Jungkook</h2>
+<p>Jeon Jung-kook, conhecido artisticamente como Jung Kook, nasceu em 1º de setembro de 1997, em Busan, Coreia do Sul. Ele é o integrante mais jovem do BTS e atua principalmente como vocalista, além de ser conhecido por suas habilidades de dança e performance.</p>
+<p>Jung Kook entrou para a Big Hit Entertainment ainda jovem e passou pelo período de treinamento antes de estrear com o BTS em 2013.</p>
+<p>Ao longo da carreira, tornou-se conhecido por sua versatilidade. Além de cantar e dançar, Jung Kook também participa de performances, gravações e diferentes projetos artísticos.</p>
+<p>Sua carreira solo ganhou grande destaque internacional com o álbum GOLDEN, lançado em 2023. O álbum inclui músicas como "Seven", "3D" e "Standing Next to You".</p>
+<p>Por ser o integrante mais jovem e apresentar habilidades em diversas áreas, Jung Kook recebeu o apelido de "Golden Maknae". "Maknae" é uma palavra coreana utilizada para se referir ao integrante mais jovem de um grupo.</p>
+<p>Em 2022, Jung Kook lançou "Dreamers", música relacionada à Copa do Mundo FIFA no Catar. Ele também apresentou a música durante a cerimônia de abertura do campeonato.</p>
+<p>Jung Kook começou a se interessar por diferentes áreas artísticas ainda jovem. Antes de entrar para a Big Hit Entertainment, participou do programa de talentos Superstar K3, experiência que fez com que várias empresas de entretenimento se interessassem por ele. Depois de receber propostas, escolheu a Big Hit após conhecer o trabalho de RM.</p>
+<p>Durante seu período de treinamento, Jung Kook viajou para os Estados Unidos para aprimorar suas habilidades de dança. Essa experiência contribuiu para o desenvolvimento de seu estilo de performance e para sua preparação antes da estreia do BTS.</p>
+
+<h3>Curiosidades sobre Jungkook</h3>
+<ul>
+
+<li>Seu nome verdadeiro é Jeon Jung-kook.</li>
+<li>Ele nasceu em Busan.</li>
+<li>Jung Kook é o integrante mais jovem do BTS.</li>
+<li>Seu apelido mais conhecido é "Golden Maknae".</li>
+<li>Ele aprendeu diversas habilidades ao longo da carreira, incluindo canto, dança e performance.</li>
+<li>Jung Kook gosta bastante de esportes e atividades físicas.</li>
+<li>Ele é conhecido por ter grande interesse por exercícios e academia.</li>
+<li>Quando era mais jovem, participou de um programa de talentos e recebeu propostas de diferentes empresas.</li>
+<li>Jung Kook escolheu entrar para a Big Hit Entertainment após conhecer o trabalho de RM.</li>
+<li>Jung Kook participou do programa Superstar K3 antes de entrar na Big Hit.</li>
+<li>Durante o treinamento, passou um período nos Estados Unidos estudando dança.</li>
+
+ </ul>
+ </div>
+
+  <section id="conquistas">
+    <p class="eyebrow-label">Números que contam a história</p>
+    <h2 class="section-title">Conquistas</h2>
+ 
+    <div class="ach-grid">
+      <div class="ach-card">
+        <div class="big">#1</div>
+        <p>Diversas entradas no topo da Billboard Hot 100 e da Billboard 200, feito inédito para um grupo asiático no mercado americano.</p>
+      </div>
+      <div class="ach-card">
+        <div class="big">ONU</div>
+        <p>Discurso de RM na Assembleia Geral das Nações Unidas em 2018, dentro da parceria com o UNICEF na campanha "Love Myself".</p>
+      </div>
+      <div class="ach-card">
+        <div class="big">5x</div>
+        <p>Indicações ao Grammy Awards, incluindo a categoria Best Pop Duo/Group Performance.</p>
+      </div>
+      <div class="ach-card">
+        <div class="big">65B+</div>
+        <p>Bilhões de streams acumulados no Spotify ao longo da carreira do grupo.</p>
+      </div>
+      <div class="ach-card">
+        <div class="big">1º no Japão</div>
+        <p>O BTS foi o primeiro artista estrangeiro a ultrapassar 1 milhão de vendas com um álbum no Japão na era digital, com BTS, THE BEST.</p>
+      </div>
+      <div class="ach-card">
+        <div class="big">IFPI #1</div>
+        <p>O BTS foi eleito Artista Global do Ano pela IFPI em 2020 e 2021, sendo o primeiro artista a conquistar o prêmio por dois anos consecutivos.</p>
+      </div>
+    </div>
+  </section>
+ 
+</div>
+ 
+</body>
+</html>
